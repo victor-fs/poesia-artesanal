@@ -1,0 +1,38 @@
+.conteudo {
+	margin-top: 195px;
+	margin-left: 170px;
+}
+.texto {
+	margin-bottom: 70px;
+}
+.texto h1 {
+	font-size: 25px;
+	color: #17aa9a;
+}
+.texto p {
+	margin-top: 10px;
+	font-size: 18px;
+}
+#ocupar {
+	height: 120px;
+}
+@media (max-width:768px) {
+	.container {
+		margin-top: 250px;
+	}
+	.conteudo {
+		margin: 0 auto;
+	}
+	.texto {
+		margin-bottom: 30px;
+	}
+	.texto h1 {
+		text-align: center;
+	}
+	.texto p {
+		margin-top: 5px;
+	}
+	#ocupar {
+		height: 0;
+	}
+}

@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.header {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fixed {
+	position: fixed;
+	background: #fff;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+#linha-social {
+	background: #17aa9a;
+	padding: 5px 0px 5px 0;
+}
+#linha-social ul li {
+	display: inline;
+	list-style: none;
+}
+#linha-social ul li a {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10px;
+}
+#linha-social ul li a:hover {
+	color: #000;
+}
+#logo {
+	width: 150px;
+	height: 150px;
+}
+#logo img {
+	width: 100%;
+}
+#menu {
+	width: 50%;
+	margin-top: 60px;
+	height: 28px;
+	display: flex;
+	justify-content: right;
+}
+#menu ul {
+	text-align: center;
+	font-size: 18px;
+}
+#menu ul li {
+	display: inline;
+	list-style: none;
+}
+#menu ul li a {
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+}
+#menu ul li a:hover {
+	background: #17aa9a;
+	color: #fff;
+}
+#botaoMenu {
+	display: none;
+}
+#icones {
+	width: 88px;
+	height: 28px;
+	margin-top: 60px;
+	display: block;
+}
+#icones ul {
+	width: 100%;
+}
+#icones ul li {
+	display: inline;
+	list-style: none;
+}
+#icones ul li a {
+	color: #000;
+	font-size: 20px;
+	margin-left: 5px;
+}
+#icones ul li a:hover {
+	color: #17aa9a;
+}
+.container {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+#submenu {
+	width: 150px;
+	height: 100%;
+	background: #17aa9a;
+	margin-top: 184px;
+	position: fixed;
+}
+.submenu-responsivo {
+	display: none;
+}
+#submenu h4 {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px #fff solid;
+}
+#categorias {
+	width: 100%;
+}
+#categorias ul {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#categorias ul li {
+	list-style: none;
+	padding: 5px;
+}
+#categorias ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+#categorias ul li a:hover {
+	color: #000;
+}
+footer {
+	width: 100%;
+	background: #17aa9a;
+	border-top: 1px #fff solid;
+}
+#fixed-rodape {
+	position: absolute;
+	bottom: 0 auto;
+}
+#fixed-rodape-bottom {
+	position: absolute;
+	bottom: 0;
+}
+#rodape {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.rodape {
+	color: #fff;
+	margin: 20px 0;
+	margin-left: 18px;
+}
+.rodape ul {
+	padding-top: 20px;
+	margin-top: -15px;
+}
+.rodape ul li {
+	list-style: circle;
+}
+.rodape ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.rodape ul li a:hover {
+	color: #000;
+}
+#rodape-redes-sociais {
+	color: #fff;
+	margin-top: 20px;
+}
+#endereco-rodape {
+	text-align: right;
+	color: #fff;
+	padding-top: 20px;
+}
+@media (max-width:1080px) {
+	#menu {
+		display: flex;
+		justify-content: right;
+	}
+	#icones {
+		display: none;
+	}
+	.icones-responsivo {
+		display: block;
+	}
+}
+@media (max-width:768px) {
+	.header {
+		flex-direction: column;
+	}
+	.header-responsivo {
+		flex-direction: row;
+	}
+	#linha-social ul {
+		text-align: left;
+	}
+	#icones {
+		display: none;
+	}
+	.icones-responsivo {
+		display: block;
+	}
+	#logo {
+		align-self: center;
+	}
+	#botaoMenu {
+		background: #17aa9a;
+		color: #fff;
+		text-align: center;
+		padding: 10px 0 10px 0;
+		display: block;
+		width: 100%;
+	}
+	#menu {
+		width: 100%;
+		height: auto;
+		background: #17aa9a;
+		margin-top: 1px;
+		display: none;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#menu h4 {
+		font-size: 20px;
+		text-align: center;
+		background: #fff;
+		border: 2px #17aa9a solid;
+		color: #17aa9a;
+	}
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+		line-height: 15px;
+		text-align: center;
+	}
+	#menu ul li {
+		display: block;
+	}
+	#menu ul li a {
+		display: block;
+		color: #fff;
+	}
+	#menu ul li a:hover {
+		color: #000;
+	}
+	#submenu {
+		display: none;
+	}
+	.submenu-responsivo {
+		display: block;
+	}
+	#rodape {
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.conteudo {
+		margin: 237px 0 10px 0;
+	}
+	.rodape {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.rodape h4 {
+		font-size: 15px;
+		text-align: center;
+	}
+	.rodape ul li {
+		font-size: 13px;
+		padding-bottom: 3px;
+		list-style: none;
+	}
+	#endereco-rodape {
+		text-align: center;
+		padding-top: 20px;
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+}

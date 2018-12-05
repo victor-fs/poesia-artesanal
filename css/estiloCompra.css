@@ -1,0 +1,103 @@
+.conteudo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#form {
+	width: 500px;
+	margin-left: 200px;
+}
+#form form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 184px;
+}
+#form h1 {
+	font-size: 36px;
+	color: #17aa9a;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+#form label {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.final {
+	border: 1px #17aa9a solid;
+	padding: 6px 0 6px 2px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+#form a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+#form a:hover {
+	color: #17aa9a;
+}
+#cep {
+	width: 100px;
+	border: 1px #17aa9a solid;
+	padding: 6px 0;
+	border-radius: 4px;
+}
+#cep2 {
+	width: 40px;
+	border: 1px #17aa9a solid;
+	padding: 6px 0;
+	border-radius: 4px;
+}
+#cartao {
+	border: 1px #17aa9a solid;
+	border-radius: 4px;
+	margin-top: 20px;
+	padding: 6px 0 6px 5px;
+}
+#cartao legend {
+	font-size: 18px;
+}
+.credito {
+	margin-left: 85px;
+}
+#finalizar {
+	background: #17aa9a;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 5px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 130px;
+	margin-left: auto;
+}
+#finalizar:hover {
+	color: #000;
+}
+#ocupar {
+	height: 10px;
+}
+@media (max-width:768px) {
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 120px;
+	}
+	#form {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+	}
+	#form form {
+		margin: auto;
+		width: 100%;
+	}
+	#form label {
+		font-size: 16px;
+	}
+}

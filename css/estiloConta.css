@@ -1,0 +1,94 @@
+.conteudo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#form {
+	width: 500px;
+	margin-left: 200px;
+}
+#form form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 184px;
+}
+#form h1 {
+	font-size: 36px;
+	color: #17aa9a;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+#form label {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.login {
+	border: 1px #17aa9a solid;
+	padding: 6px 0 6px 2px;
+	border-radius: 4px;
+	margin-top: -20px;
+	width: 100%;
+}
+#form a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+#form a:hover {
+	color: #17aa9a;
+}
+#click-loga {
+	background: #17aa9a;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 5px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 120px;
+	margin-left: auto;
+}
+#click-loga:hover {
+	color: #000;
+}
+#click-cria {
+	background: #17aa9a;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	width: 105px;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#click-cria:hover {
+	color: #000;
+}
+#ocupar {
+	height: 85px;
+}
+@media (max-width:768px) {
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 120px;
+	}
+	#form {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+	}
+	#form form {
+		margin: auto;
+		width: 100%;
+	}
+	#form label {
+		font-size: 16px;
+	}
+}

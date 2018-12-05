@@ -1,0 +1,73 @@
+.conteudo {
+	margin-top: 184px;
+	display: flex;
+	justify-content: center;
+	margin-left: 170px;
+	width: 100%;
+}
+#contato {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	width: 70%;
+}
+#contato form {
+	display: flex;
+	flex-direction: column;
+}
+#contato h1 {
+	font-size: 36px;
+	color: #17aa9a;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#contato label {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.contato {
+	border: 1px #17aa9a solid;
+	padding: 6px 0;
+	border-radius: 4px;
+	margin-top: -20px;
+}
+#contato a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+#contato a:hover {
+	color: #17aa9a;
+}
+#mensagem {
+	height: 100px;
+}
+#enviar{
+	background: #17aa9a;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 5px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width: 70px;
+	margin-left: auto;
+}
+#enviar:hover {
+	color: #000;
+}
+#mapa {
+	margin-bottom: 30px;
+}
+@media (max-width:768px) {
+	.container {
+		margin-top: 250px;
+	}
+	.conteudo {
+		margin: 0 auto;
+	}
+	#contato {
+		width: 100%;
+	}
+}
